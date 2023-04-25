@@ -1,9 +1,9 @@
-// Función para calcular la velocidad de escape
+alert ("Prueba este simulador para calcular la velocidad de escape de un astro, considerando la masa de un cuerpo");
+
 function calcularVE(masa, planeta) {
     let gravedadSuperficie;
     let radioPlaneta;
     
-    // Seleccionar planeta
     switch (planeta) {
       case 'sol':
         gravedadSuperficie = 274;
@@ -61,11 +61,11 @@ function calcularVE(masa, planeta) {
         console.log('Planeta no válido');
         return;
     }
-    // Calcular la velocidad de escape
+
     const velocidadEscape = Math.sqrt((2 * gravedadSuperficie * radioPlaneta) / masa);
     return velocidadEscape;
-  }
-// Obtener la masa ingresada x el usuario
+}
+
 let masa = parseFloat(prompt('Ingrese la masa del cuerpo en kg:'));
 
 while (isNaN(masa) || masa <= 0) {
@@ -77,12 +77,9 @@ while (isNaN(masa) || masa <= 0) {
     masa = parseFloat(prompt('Ingrese la masa del cuerpo en kg:'));
 }
 
-// Obtener el planeta elegido x el usuario
 const planeta = prompt('Ingrese el nombre del planeta (sol, mercurio, venus, tierra, luna, marte, ceres, jupiter, neptuno, pluton, saturno, urano, eris):');
-
-// Calcular la velocidad de escape
 const velocidadEscape = calcularVE(masa, planeta);
 
 // Mostrar el resultado
 if (velocidadEscape) {
-console.log(`La velocidad de escape necesaria para salir del campo gravitatorio del planeta ${planeta} es de ${velocidadEscape.toFixed(2)} m/s.`);}
+alert(`La velocidad de escape necesaria para salir del campo gravitatorio del planeta ${planeta} es de ${velocidadEscape.toFixed(2)} m/s.`);}
