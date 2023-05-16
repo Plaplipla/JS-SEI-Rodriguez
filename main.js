@@ -10,7 +10,7 @@ if (rol.toLowerCase() === "empleado") {
 
   // Función para que el empleado modifique los destinos
   function gestionarDestinos() {
-    let opcion = prompt("Ingrese una opción (si es la primera vez, ingrese el 1; de lo contrario, omita): \n1. Agregar destino \n2. Eliminar destino \n3. Modificar destino \n4. Finalizar");
+    let opcion = prompt("Ingrese una opción (Si es la primera vez, ingrese el 1; de lo contrario, omita): \n1. Agregar destino \n2. Eliminar destino \n3. Modificar destino \n4. Finalizar");
     switch (opcion) {
       case "1":
         let cantidadDestinos = prompt("Ingrese la cantidad de destinos que desea agregar:");
