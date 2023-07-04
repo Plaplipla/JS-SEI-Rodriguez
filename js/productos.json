@@ -127,7 +127,7 @@
             "nombre": "Hogar",
             "id": "hogar"
         },
-        "peso": 40
+        "peso": 400
     },
     {
         "id": "panel-solar",
@@ -157,7 +157,7 @@
             "nombre": "Salud",
             "id": "salud"
         },
-        "peso": 3
+        "peso": 1
     },
     {
         "id": "rastreador-salud",
