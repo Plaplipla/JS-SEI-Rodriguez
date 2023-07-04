@@ -11,35 +11,50 @@
 
     <body>
         <div class="wrapper">
+            <header class="header-mobile">
+                <h1 class="logo">
+                    <img src="../images/Logo.svg">
+                    Envios Intergalacticos
+                </h1>
+                <button class="open-menu" id="open-menu">
+                    <i class="bi bi-list"></i>
+                </button>
+            </header>
             <aside>
+                <button class="close-menu" id="close-menu">
+                    <i class="bi bi-x"></i>
+                </button>
                 <header>
-                    <h1 class="logo">Envios Intergalacticos</h1>
+                    <h1 class="logo">
+                        <img src="../images/Logo.svg">
+                        Envios Intergalacticos
+                    </h1>
                 </header>
                 <nav>
                     <ul class="menu">
                         <li>
                             <a class="btn-menu" href="../index.html">
-                                <i class="bi bi-caret-right"></i>Inicio
+                                <i class="bi bi-caret-right-fill"></i>Inicio
                             </a>
                         </li>
                         <li>
                             <a class="btn-menu" href="../pages/paquete.html">
-                                <i class="bi bi-caret-right"></i>Enviar Paquete
+                                <i class="bi bi-caret-right-fill"></i>Enviar Paquete
                             </a>
                         </li>
                         <li>
                             <a class="btn-menu" href="../pages/rastreo-envio.html">
-                                <i class="bi bi-caret-right"></i>Rastreo de Envíos
+                                <i class="bi bi-caret-right-fill"></i>Rastreo de Envíos
                             </a>
                         </li>
                         <li>
                             <a class="btn-menu" href="../pages/nosotros.html">
-                                <i class="bi bi-caret-right"></i>Nosotros
+                                <i class="bi bi-caret-right-fill"></i>Nosotros
                             </a>
                         </li>
                         <li>
                             <a class="btn-menu active" href="../pages/contacto.html">
-                                <i class="bi bi-caret-right-fill"></i>Atención al Cliente
+                                <i class="bi bi-caret-down-fill"></i>Atención al Cliente
                             </a>
                         </li>
                         <li>
@@ -55,38 +70,56 @@
             </aside>
 
             <main class="bg-img-1">
-                <section class="text">
-                    <h1>Contacto</h1>
-                
-                    <h2>Información de contacto</h2>
-                    <p>Para consultas o solicitudes de envío, por favor contáctenos a través de los siguientes medios:</p>
-                    
-                    <h2>Teléfono</h2>
-                    <p>Teléfono: 555-123-4567</p>
-                    
-                    <h2>Email</h2>
-                    <p>Email: info@enviosintergalacticos.com</p>
-                    
-                    <h2>Dirección</h2>
-                    <p>Dirección: Calle del Espacio, Número 1234, Planeta XYZ</p>
-                    
-                    <h2>Formulario de contacto</h2>
-                    <form>
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required><br><br>
-                        
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required><br><br>
-                        
-                        <label for="mensaje">Mensaje:</label><br>
-                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
-                        
-                        <input type="submit" value="Enviar mensaje">
-                    </form>
-                </section>
+                <div class="text">
+                    <h1 class="text-index">Información de contacto</h1>
+                    <p class="text-index">Para consultas o solicitudes de envío, por favor contáctenos a través de los siguientes medios:</p><br>
+
+                    <div class="index-contact">
+                        <section class="section-index-form">
+                            <h1 class="h1-form">Formulario de contacto</h1>
+                            <form class="index-form">
+                                <div>
+                                    <label for="nombre">Nombre:</label>
+                                    <input type="text" placeholder="Nombre y Apellido" id="nombre" name="nombre" required>
+                                </div>
+    
+                                <div>
+                                    <label for="email">E-mail:</label>
+                                    <input type="email" placeholder="Ingrese su email" id="email" name="email" required>
+                                </div>
+    
+                                <div>
+                                    <label for="mensaje">Mensaje:</label><br>
+                                    <textarea class="textarea-index" placeholder="Asunto..." id="mensaje" name="mensaje" required></textarea>
+                                </div>
+    
+                                <div>
+                                    <input type="submit" value="Enviar mensaje">
+                                </div>
+                            </form>
+                        </section>
+
+                        <section class="section-index-contact">
+                            <h2>Teléfono</h2>
+                            <p>Teléfono: 555-123-4567</p><br>
+                            
+                            <h2>Email</h2>
+                            <p>Email: info@enviosintergalacticos.com</p><br>
+                            
+                            <h2>Dirección</h2>
+                            <p>Dirección: Calle del Espacio, Número 1234, Planeta XYZ</p><br>
+
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/" class="social-icon"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/" class="social-icon"><i class="bi bi-instagram"></i></a>
+                                <a href="https://twitter.com/" class="social-icon"><i class="bi bi-twitter"></i></a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
             </main>
         </div>
-
-        <!-- <script src="../main.js"></script> -->
+        
+        <script src="../js/menu.js"></script>
     </body>
 </html>

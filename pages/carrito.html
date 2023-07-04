@@ -5,15 +5,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <title>Tu carrito de compras</title>
     </head>
 
     <body>
         <div class="wrapper">
+            <header class="header-mobile">
+                <h1 class="logo">
+                    <img src="../images/Logo.svg">
+                    Envios Intergalacticos
+                </h1>
+                <button class="open-menu" id="open-menu">
+                    <i class="bi bi-list"></i>
+                </button>
+            </header>
             <aside>
+                <button class="close-menu" id="close-menu">
+                    <i class="bi bi-x"></i>
+                </button>
                 <header>
-                    <h1 class="logo">Envios Intergalacticos</h1>
+                    <h1 class="logo">
+                        <img src="../images/Logo.svg">
+                        Envios Intergalacticos
+                    </h1>
                 </header>
                 <nav>
                     <ul class="menu">
@@ -37,13 +53,44 @@
             <main>
                 <h2 class="main-title">Carrito de compras</h2>
                 <div class="cart-container">
-                   <p id="empty-cart" class="empty-cart">Tu carrito está vacío. <i class="bi bi-emoji-frown"></i></p>
-
+                   <p id="empty-cart" class="empty-cart">Tu carrito está vacío. <i class="bi bi-rocket-fill"></i><br>
+                    <a href="../pages/paquete.html">¡Explora nuestros productos haciendo click aquí!</a></p>
                    <div id="cart-products" class="cart-products disabled">
                         <!-- js injected -->
                    </div>
 
-                   <div id="cart-actions" class="cart-actions disabled">
+                    <section id="cart-shipping" class="section-form disabled">
+                        <h1 class="h1-form">Información de envío</h1>
+                        <form>
+                            <div>
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" placeholder="Nombre" name="nombre" required>
+                            </div>
+
+                            <div>
+                                <label for="surname">Apellido</label>
+                                <input type="text" id="surname" placeholder="Apellido" name="apellido" required>
+                            </div>
+
+                            <div>
+                                <label for="Phone">Número Teléfono</label>
+                                <input type="tel" id="phone" placeholder="+123 4560 7890" value="">
+                            </div>
+
+                            <div>
+                                <label>E-mail</label>
+                                <input type="email" name="email" placeholder="E-mail" required>
+                            </div>
+                            <div>
+                                <h1 class="h1-form">Seleccionar planeta destino:</h1>
+                            </div><br>
+                            <div id="pdestino">
+                               <!--js planetas-->
+                            </div>
+                        </form>
+                    </section>
+
+                    <div id="cart-actions" class="cart-actions disabled">
                         <div class="cart-actions-left">
                             <button id="cart-actions-empty" class="cart-actions-empty">Vaciar carrito</button>
                         </div>
@@ -54,33 +101,14 @@
                             </div>
                             <button id="cart-actions-buy" class="cart-actions-buy">Comprar ahora</button>
                         </div>
-                   </div>
-                   
-                   <p id="cart-bought" class="cart-bought disabled">Muchas gracias por tu compra <i class="bi bi-rocket-takeoff-fill"></i></p>
+                    </div>
+                    
+                    <p id="cart-bought" class="cart-bought disabled">Muchas gracias por tu compra <i class="bi bi-rocket-takeoff-fill"></i></p>
                 </div>
-
-                <br><br><br><br>
-                <!-- <section>
-                    <h1>Enviar paquete</h1>
-                    <form>
-                        <label for="origen">Origen:</label>
-                        <input type="text" id="origen" name="origen" required>
-                        
-                        <label for="destino">Destino:</label>
-                        <input type="text" id="destino" name="destino" required>
-                        
-                        <label for="peso">Peso (kg):</label>
-                        <input type="number" id="peso" name="peso" required>
-                        
-                        <label for="valor">Valor:</label>
-                        <input type="number" id="valor" name="valor" required>
-                        
-                        <input type="submit" value="Enviar">
-                    </form>
-                </section> -->
             </main>
         </div>
 
         <script src="../js/carrito.js"></script>
+        <script src="../js/menu.js"></script>
     </body>
 </html>

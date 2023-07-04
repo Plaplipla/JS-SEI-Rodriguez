@@ -1,0 +1,182 @@
+[
+    {
+        "id": "caja-1",
+        "titulo": "1 Caja de alimento",
+        "imagen": "../images/Caja-alimento.png",
+        "categoria": {
+            "nombre": "Alimentos",
+            "id": "alimentos"
+        },
+        "peso": 20
+    },
+    {
+        "id": "caja-2",
+        "titulo": "2 Cajas de alimento",
+        "imagen": "../images/Caja-alimento-2.png",
+        "categoria": {
+            "nombre": "Alimentos",
+            "id": "alimentos"
+        },
+        "peso": 40
+    },
+    {
+        "id": "caja-3",
+        "titulo": "3 Cajas de alimento",
+        "imagen": "../images/Caja-alimento-3.png",
+        "categoria": {
+            "nombre": "Alimentos",
+            "id": "alimentos"
+        },
+        "peso": 60
+    },
+    {
+        "id": "set-1",
+        "titulo": "Set de exploración básico",
+        "imagen": "../images/Exploracion-set.jpeg",
+        "categoria": {
+            "nombre": "Ropa",
+            "id": "ropa"
+        },
+        "peso": 20
+    },
+    {
+        "id": "set-2",
+        "titulo": "Radio para exploración",
+        "imagen": "../images/Exploracion-radio.png",
+        "categoria": {
+            "nombre": "Ropa",
+            "id": "ropa"
+        },
+        "peso": 30
+    },
+    {
+        "id": "set-3",
+        "titulo": "Comunicador profesional",
+        "imagen": "../images/Exploracion-comunicador.jpg",
+        "categoria": {
+            "nombre": "Ropa",
+            "id": "ropa"
+        },
+        "peso": 40
+    },
+    {
+        "id": "macetas",
+        "titulo": "Macetas grandes",
+        "imagen": "../images/Macetas-XL.jpg",
+        "categoria": {
+            "nombre": "Hogar",
+            "id": "hogar"
+        },
+        "peso": 30
+    },
+    {
+        "id": "sistema-cultivo",
+        "titulo": "2 Sistemas de cultivo",
+        "imagen": "../images/Sistemas-de-cultivo-hidro.png",
+        "categoria": {
+            "nombre": "Hogar",
+            "id": "hogar"
+        },
+        "peso": 60
+    },
+    {
+        "id": "asistente-cocina",
+        "titulo": "Asistente de cocina",
+        "imagen": "../images/Tecnología-asistente-cocina.jpg",
+        "categoria": {
+            "nombre": "Hogar",
+            "id": "hogar"
+        },
+        "peso": 8
+    },
+    {
+        "id": "cocina",
+        "titulo": "Cocina digital",
+        "imagen": "../images/Tecnología-cocina.jpg",
+        "categoria": {
+            "nombre": "Hogar",
+            "id": "hogar"
+        },
+        "peso": 20
+    },
+    {
+        "id": "climatizador",
+        "titulo": "Equipos de climatización",
+        "imagen": "../images/Tecnología-equipos-climatizacion.jpg",
+        "categoria": {
+            "nombre": "Hogar",
+            "id": "hogar"
+        },
+        "peso": 30
+    },
+    {
+        "id": "frigobar",
+        "titulo": "Frigobar",
+        "imagen": "../images/Tecnología-frigobar.jpg",
+        "categoria": {
+            "nombre": "Hogar",
+            "id": "hogar"
+        },
+        "peso": 15
+    },
+    {
+        "id": "generador",
+        "titulo": "Generador de energía",
+        "imagen": "../images/Tecnología-generador-energía.png",
+        "categoria": {
+            "nombre": "Hogar",
+            "id": "hogar"
+        },
+        "peso": 40
+    },
+    {
+        "id": "panel-solar",
+        "titulo": "Paneles solares",
+        "imagen": "../images/Tecnología-panel-solar.png",
+        "categoria": {
+            "nombre": "Hogar",
+            "id": "hogar"
+        },
+        "peso": 30
+    },
+    {
+        "id": "purificador-aire",
+        "titulo": "Purificador de aire",
+        "imagen": "../images/Tecnología-Purificador-de-aire.jpg",
+        "categoria": {
+            "nombre": "Hogar",
+            "id": "hogar"
+        },
+        "peso": 6
+    },
+    {
+        "id": "diadema",
+        "titulo": "Diadema para meditación",
+        "imagen": "../images/Salud-diadema.jpg",
+        "categoria": {
+            "nombre": "Salud",
+            "id": "salud"
+        },
+        "peso": 3
+    },
+    {
+        "id": "rastreador-salud",
+        "titulo": "Dispositivo rastreador de salud",
+        "imagen": "../images/Salud-dispositivo.jpg",
+        "categoria": {
+            "nombre": "Salud",
+            "id": "salud"
+        },
+        "peso": 1
+    },
+    {
+        "id": "kit-salud",
+        "titulo": "Kit de primeros auxilios",
+        "imagen": "../images/Salud-Kit.jpg",
+        "categoria": {
+            "nombre": "Salud",
+            "id": "salud"
+        },
+        "peso": 5
+    }
+]

@@ -1,0 +1,14 @@
+[
+    { "nombre": "Mercurio", "velocidadEscape": 4.25, "imagen": "../images/Mercury.png"},
+    { "nombre": "Venus", "velocidadEscape": 10.36, "imagen": "../images/Venus.png"},
+    { "nombre": "Tierra", "velocidadEscape": 11.19, "imagen": "../images/Earth.png"},
+    { "nombre": "Luna", "velocidadEscape": 2.38, "imagen": "../images/Moon.png"},
+    { "nombre": "Marte", "velocidadEscape": 5.03, "imagen": "../images/Mars.png"},
+    { "nombre": "Ceres", "velocidadEscape": 0.51, "imagen": "../images/Ceres.png"},
+    { "nombre": "Jupiter", "velocidadEscape": 59.50, "imagen": "../images/Jupiter.png"},
+    { "nombre": "Saturno", "velocidadEscape": 35.50, "imagen": "../images/Saturn.png"},
+    { "nombre": "Urano", "velocidadEscape": 21.40, "imagen": "../images/Uranus.png"},
+    { "nombre": "Neptuno", "velocidadEscape": 23.50, "imagen": "../images/Neptune.png"},
+    { "nombre": "Pluto", "velocidadEscape": 1.19, "imagen": "../images/Pluto.png"},
+    { "nombre": "Eris", "velocidadEscape": 1.31, "imagen": "../images/Eris.png"}
+]
